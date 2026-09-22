@@ -7,7 +7,7 @@ class Task4{
 
         if (scan.hasNextInt()){
             userAge = scan.nextInt();
-            if (userAge >= 21){
+            if (userAge >= 21 && userAge <= 120){
                 System.out.println("You get a wristband.");
             }
         }else {
